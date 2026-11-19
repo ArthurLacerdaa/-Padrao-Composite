@@ -1,10 +1,10 @@
 package padroesestruturais.composite;
 
-public abstract class Conteudo {
+public abstract class Secao {
 
     private String descricao;
 
-    public Conteudo(String descricao) {
+    public Secao(String descricao) {
         this.descricao = descricao;
     }
 
@@ -16,5 +16,5 @@ public abstract class Conteudo {
         this.descricao = descricao;
     }
 
-    public abstract String getConteudo();
+    public abstract String getSecao();
 }
